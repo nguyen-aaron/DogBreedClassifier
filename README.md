@@ -20,6 +20,14 @@ Split into training, validation, and test sets.
 
 Apply data augmentation (rotation, zoom, flip) to improve generalization.
 
+### Data Preprocessing (Alex):
+
+Use the dataset from https://github.com/AtharvaTaras/Dog-Breeds-Dataset. 
+
+Split into training and test sets. 
+
+Apply data augmentation to the test dataset.
+
 ## Model Plans
 
 ### Model Construction (Aaron):
@@ -35,5 +43,13 @@ Loss: CrossEntropyLoss
 Optimizer: Adam
 
 Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and AUC curves
+
+### Model Construction (Alex)
+
+Build a CNN using PyTorch.
+
+Start with 2 convolution layers and 2 fully connected layers.
+
+Use Cross Entropy Loss and the Adam optimizer.
 
 ## Project Timeline
