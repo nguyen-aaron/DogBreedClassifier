@@ -14,7 +14,7 @@ This project explores the use of convolutional neural networks (CNNs) to identif
 
 ### Data Preprocessing (Aaron):
 
-Load and organize the Stanford Dogs dataset.
+Load and organize the Stanford Dogs dataset (https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset).
 
 Split into training, validation, and test sets.
 
