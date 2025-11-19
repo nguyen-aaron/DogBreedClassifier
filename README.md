@@ -44,6 +44,8 @@ Optimizer: Adam
 
 Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and AUC curves
 
+After doing an initial run through, will most likely train using a pretrained model like ResNet.
+
 ### Model Construction (Alex)
 
 Build a CNN using PyTorch.
