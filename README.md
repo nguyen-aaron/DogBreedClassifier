@@ -47,6 +47,8 @@ Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and A
 
 After doing an initial run through, will most likely train using a pretrained model like ResNet.
 
+Also will try InceptionV3
+
 ### Model Construction (Alex)
 
 Build a CNN using PyTorch.
