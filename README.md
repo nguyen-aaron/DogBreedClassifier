@@ -3,6 +3,7 @@
 # Authors:
 
 Aaron Nguyen @nguyen-aaron
+Alexander Chang @alexanderchang140
 
 # Description:
 
@@ -46,6 +47,8 @@ Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and A
 
 After doing an initial run through, will most likely train using a pretrained model like ResNet.
 
+Also will try InceptionV3
+
 ### Model Construction (Alex)
 
 Build a CNN using PyTorch.
@@ -53,5 +56,17 @@ Build a CNN using PyTorch.
 Start with 2 convolution layers and 2 fully connected layers.
 
 Use Cross Entropy Loss and the Adam optimizer.
+
+## Presentation (Alex)
+
+Where data was obtained and what it contains.
+
+How data was processed (filtering, augmentation, standardization).
+
+Starting model, and how it evolved.
+
+Explanation of architecture decisions.
+
+Also include visualization of data.
 
 ## Project Timeline
