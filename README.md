@@ -68,4 +68,6 @@ Explanation of architecture decisions.
 
 Also include visualization of data.
 
-## Project Timeline
+## Training (Aaron)
+
+Run Jupyter Notebook on Google Colab to utilize Nvidia T4 GPU for faster training
