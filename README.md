@@ -74,3 +74,12 @@ Explanation of architecture decisions.
 
 Also include visualization of data.
 
+## Future Work (Aaron)
+
+Expand to Additional Pretrained Architectures: Try different models like EfficientNet, ViT (Vision Transformer), and ConvNeXt to see which architecture is best for real-world deployment
+
+Hyperparameter Optimization: Potentially use libararies/tools to find the best learning rates, batch size, weight decay(if any), data augmentations, etc
+
+Deploy the Model: Users can upload an image of their dog to see what our model predicts.
+
+Cross-Dataset Evaluation: Testing on other dog datasets would measure generalizability and detect overfitting of our datasets.
