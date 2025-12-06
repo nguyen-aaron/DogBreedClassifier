@@ -3,6 +3,7 @@
 # Authors:
 
 Aaron Nguyen @nguyen-aaron
+
 Alexander Chang @alexanderchang140
 
 # Description:
@@ -17,7 +18,7 @@ This project explores the use of convolutional neural networks (CNNs) to identif
 
 Load and organize the Stanford Dogs dataset (https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset).
 
-Split into training, validation, and test sets.
+Split into training and test sets.
 
 Apply data augmentation (rotation, zoom, flip) to improve generalization.
 
@@ -39,15 +40,11 @@ Use the Stanford Dogs Dataset for training and evaluation.
 
 Start with a base model (2 convolutional layers), then increase complexity by adding more layers and filters.
 
+Also use pretrained models ResNet and Inception V3
+
 Loss: CrossEntropyLoss
 
 Optimizer: Adam
-
-Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and AUC curves
-
-After doing an initial run through, will most likely train using a pretrained model like ResNet.
-
-Also will try InceptionV3
 
 ### Model Construction (Alex)
 
@@ -56,6 +53,14 @@ Build a CNN using PyTorch.
 Start with 2 convolution layers and 2 fully connected layers.
 
 Use Cross Entropy Loss and the Adam optimizer.
+
+## Model Training (Aaron)
+
+Run Jupyter Notebook on Google Colab to utilize Nvidia T4 GPU for faster training
+
+## Model Analysis (Aaron)
+
+Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and AUC curves
 
 ## Presentation (Alex)
 
@@ -69,4 +74,3 @@ Explanation of architecture decisions.
 
 Also include visualization of data.
 
-## Project Timeline
