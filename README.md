@@ -60,7 +60,9 @@ Run Jupyter Notebook on Google Colab to utilize Nvidia T4 GPU for faster trainin
 
 ## Model Analysis (Aaron)
 
-Evaluate performance with: Accuracy and loss curves, confusion matrix, ROC and AUC curves
+Train and test loss over epochs chart
+Top-k Prediction Accuracy
+Visualzation of model predictions on small batch of test data
 
 ## Presentation (Alex)
 
